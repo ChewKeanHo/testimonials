@@ -1,4 +1,10 @@
-Copyright 2025 (Holloway) Chew, Kean Ho <hello@hollowaykenaho.com>
+Copyright 2025 The (Holloway) Chew, Kean Ho Testimonial Project Team (https://github.com/ChewKeanHo/testimonials)
+
+The above unified aliases have one or more actual legal entities listed outside
+of this document: (1) 'CREATORS.txt' or 'AUTHORS.txt'; and
+(2) 'CONTRIBUTORS.txt'. They are located usually placed next to this document
+in their respective project repository. Please refer to them for compiling the
+complete list accordingly.
 
 
 Licensed under (Holloway) Chew, Kean Ho's Proprietary License (the 'License').

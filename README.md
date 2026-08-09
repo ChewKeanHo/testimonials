@@ -1,106 +1,327 @@
 # Testimonials | (Holloway) Chew, Kean Ho
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-All received testimonials from the general public formally processed and
-published. These are `(Holloway) Chew, Kean Ho` own efforts received from his
-entrepreneurial bootstraps journey.
+(Holloway) Chew, Kean Ho's received testimonials. They are his past efforts'
+reciprocal feedbacks throughout his working and entrepreneurial journies - all
+in one (1) place.
 
-This project is open and be continously updated from time-to-time accordingly.
-
-
-
-
-## Artificial Intelligence (A.I) Decrees
-
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
-
-This project is **REFAINED FROM** the use of one or more generative artificial
-intelligence such as but not limited to large language model (LLM) for the
-following tasks:
+This project is open and is continuously improved (e.g. updated) from
+time-to-time accordingly.
 
 
 
-### Data Sourcing
 
-> [!Note]
->
-> * Performing enhanced web searches due to polluted search engine indexes.
-> * Performing completely generated media such as but not limited to images,
->   videos, and audios.
+## Verifying Content Integrity
 
-No deployment.
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
+To secure the content from unauthorized modification by anyone down to bit-level
+(`0|1`), they are cryptographically signed using one or more cryptography tools
+such as but not limited to:
 
+* [GnuPG](https://gnupg.org); AND/OR
+* [OpenSSL](https://www.openssl.org/).
 
-### Data Processing & Analytics
-
-> [!Note]
->
-> * Performing development via multi-steps queries (also known as
->   *vibe coding* or *agentic AI work*).
-> * Performing data analytics via multi-steps queries (also known as
->   *vibe coding* or *AI vibing*).
-> * Performing dedicated and task specific work where conventional technologies
->   could not achieve such as but not limited to upscaling an image verbatim.
-
-No deployment.
+The public key and the associated certificate are attached. Only the main owner
+keeps and maintains the private keys. To verify the content's integrity:
 
 
 
-### Data Testing
+### GnuPG
 
-> [!Note]
->
-> * Performing end-user use case simulated testings.
+1. Install [GnuPG](https://gnupg.org) software if not present.
+2. Download the target file and its detached signature file (the `.asc` file
+   with the same filename).
+3. Download the public key file (`.gpg`).
+4. Place them next to each other in the directory.
+5. Open a terminal and execute the following command:
 
-No deployment.
-
-
-
-### Data Visualization
-
-> [!Note]
->
-> * Performing completely generated data visualization via multi-step queries
->   (also known as *vibe coding*).
-
-No deployment.
+```
+$ gpg --no-default-keyring --keyring /path/to/public.gpg --verify /path/to/file.asc
+```
 
 
 
-### Data Archiving & Deletion
+### OpenSSL
 
-> [!Note]
->
-> * Performing data clean-up via multi-step queries (also known as
->   *vibe coding*).
+1. Install [OpenSSL](https://www.openssl.org) software if not present.
+2. Download the target file and its detached signature file (the `.sig`/`.sign`
+   file with the same filename).
+3. Download the public certificate file (`.pem`) containing the public key
+   within.
+4. Place them next to each other in the directory.
+5. Open a terminal and execute the following command:
 
-No deployment.
+```
+$ openssl dgst -verify /path/to/pubkey.pem -signature /path/to/file.sig /path/to/file
+```
+
+
+
+
+## Artificial Intelligence (A.I.) Decrees
+
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
+
+Please refer to [AI_DECREES.md](AI_DECREES.md) for the project's policy on the
+use of Artificial Intelligence.
+
+
+
+
+## Maintainers' Notes
+
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
+
+Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for contributing &
+maintenances guidelines.
 
 
 
 
 ## License
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
+
+* [Agreed GIMP License](.internals/terms-of-services/GimpORG-License.pdf)
+* [Agreed GIMP Privacy Policy](.internals/privacy-policy/GimpORG-Privacy-Policy.pdf)
+* [Agreed Inkscape License](.internals/terms-of-services/Inkscape-License.pdf)
+* [Agreed Inkscape Privacy Policy](.internals/privacy-policy/Inkscape-Privacy-Policy.pdf)
+* [Agreed LibreOffice License](.internals/terms-of-services/LibreOffice-License.pdf)
+* [Agreed LibreOffice Privacy Policy](.internals/privacy-policy/LibreOffice-Privacy-Policy.pdf)
 
 This entire repository is licensed under
-[(Holloway) Chew, Kean Ho's Proprietary License](LICENSE.txt).
+[(Holloway) Chew, Kean Ho's Proprietary License](LICENSE.txt). To ensure better
+understanding of this license, the following sub-sections will briefly describe
+how to deploy the content.
+
+For registered non-profit organizations (NGO), you are considered a
+`Commercial Entity` the same as any for-profit organization by default. However,
+you will be eligible for the NGO disbursement grant and receive exception
+privileges from the creator(s).
+
+
+
+### Attribution
+
+Unless otherwise specified, you **MUST** attribute back to the creator(s) as
+follows:
 
 ```
-NAME
-Testimonials | (Holloway) Chew, Kean Ho
-
-NICKNAME
-Testimonials
-
-PRODUCT UUID
-923DBC83-E806-4E95-A5CF-5AC8B49ADB62
-
-PRODUCT SKU
-chewkeanho-testimonials
-
-TRADEMARK HOLDER
-(Holloway) Chew, Kean Ho  - natural person
+Title: Testimonials
+Creators: (Holloway) Chew, Kean Ho
+Packaged-By: (Holloway) Chew, Kean Ho
+Contact: hello@chewkeanho.com
+SKU: chewkeanho-research-testimonials
+UUID: B897AF4C-B171-410D-8F62-CA9E6EF772B0
+License: (Holloway) Chew, Kean Ho's Proprietary License (https://doi.org/10.5281/zenodo.13767361)
+Repository Made On: 2026-11-13
+Repository Made From: Malaysia, South East Asia
+Procure: https://github.com/ChewKeanHo/testimonials
 ```
+
+
+
+### Ownership - Personal
+
+> [!NOTE]
+>
+> This targets any customer wanting to own a copy of the content and then only
+> he/she is using it without sharing with any 3rd-party entity; AND **WITHOUT**
+> any monetary intention such as but not limited to:
+>
+> * Saving a local copy and then viewing via his/her own mobile device(s); OR
+> * Saving a local copy and then viewing via his/her own personal computer; OR
+> * Saving a local copy for artificial intelligence data training purposes.
+
+You are **NOT ALLOWED** until you procure your dedicated license grant from us.
+
+
+
+### Ownership - Commercial
+
+> [!NOTE]
+>
+> This targets any customer wanting to own a copy of the content and then only
+> he/she is using it without sharing with any 3rd-party entity; AND **WITH** any
+> monetary intention such as but not limited to:
+>
+> * Saving a local copy for enhancing his/her company's procurement list; OR
+> * Saving a local copy for commercial artificial intelligence data training
+>   purposes.
+
+You are **NOT ALLOWED** until you procure your dedicated license grant from us.
+
+
+
+### Reference - Personal & Commercial
+
+> [!NOTE]
+>
+> This targets any customer wanting to refer or to provide a guide for sourcing
+> the original content for any 3rd-party entity **without directly displaying
+> any portion of the original content**; **WITHOUT** any monetary intention such
+> as but not limited to:
+>
+> * Academic research and paper writing; OR
+> * New content creation linking to the original content **WITHOUT displaying
+>   any of the original content** for his/her own streaming platform; OR
+> * Content production and collection linking to original content **WITHOUT
+>   displaying any of the original content**; OR
+> * Web portfolio project linking to the original content **WITHOUT displaying
+>   any of the original content**; OR
+> * Event materials linking the original content **WITHOUT displaying any of the
+>   original content**; OR
+> * Meeting materials linking the original content **WITHOUT displaying any of
+>   the original content**; OR
+> * Advertisement contents linking the original content **WITHOUT displaying any
+>   of the original content**.
+
+You are **NOT ALLOWED** until you procure your dedicated license grant from us.
+
+
+
+### Integration - Personal
+
+> [!NOTE]
+>
+> This targets any customer wanting to directly **display portions and NOT ALL**
+> of the original content **as it is OR without any composing remixes or
+> modifications retaining the original intent, art direction and messages** into
+> his/her content creation; **WITHOUT** any monetary intention such as but not
+> limited to:
+>
+> * New content creation with displaying portion(s) of the original content for
+>   his/her own streaming platform **without any monetary gain**; OR
+> * Content production and collection with displaying portion(s) of the original
+>   content **without any monetary gain**; OR
+> * Web portfolio project with displaying portion(s) of the original content
+>   **without any monetary gain**; OR
+> * Event materials with displaying portion(s) of the original content
+>   **without any monetary gain**; OR
+> * Meeting materials with displaying portion(s) of the original content
+>   **without any monetary gain**.
+
+You are **NOT ALLOWED** until you procure your dedicated license grant from us.
+
+
+
+### Integration - Commercial
+
+> [!NOTE]
+>
+> This targets any customer wanting to directly **display portions and NOT ALL**
+> of the original content **as it is OR without any composing remixes or
+> modifications retaining the original intent, art direction and messages** into
+> his/her content creation; **WITH** any monetary intention such as but not
+> limited to:
+>
+> * New content creation with displaying portion(s) of the original content for
+>   his/her own streaming platform; OR
+> * Content production and collection with displaying portion(s) of the original
+>   content; OR
+> * Web portfolio project with displaying portion(s) of the original content; OR
+> * Event materials with displaying portion(s) of the original content; OR
+> * Meeting materials with displaying portion(s) of the original content; OR
+> * Advertisement materials with displaying portion(s) of the original content.
+
+You are **NOT ALLOWED** until you procure your dedicated license grant from us.
+
+
+
+### Composition Remix - Personal
+
+> [!NOTE]
+>
+> This targets any customer wanting to own and then **modify the original
+> content extensively preserving or altering the original intent, art direction,
+> or message** for composing his/her new content creation; **WITHOUT** any
+> monetary intention such as but not limited to:
+>
+> * New content creation with digitally modified and processed original content
+>   integration for his/her own streaming platform **WITHOUT** any profits
+>   including advertisement commission; OR
+> * Personal content production and collection with digitally modified and
+>   processed original content integration for his/her own streaming platform
+>   **WITHOUT** any profits including advertisement commission; OR
+> * Personal web portfolio project with digitally modified and processed
+>   original content integration for his/her own streaming platform **WITHOUT**
+>   any profits including advertisement commission; OR
+> * Social media meme content creation with digitally modified and processed
+>   original content integration for his/her own streaming platform **WITHOUT**
+>   any profits including advertisement commission.
+
+You are **NOT ALLOWED** until you procure your dedicated license grant from us.
+
+
+
+### Composition Remix - Commercial
+
+> [!NOTE]
+>
+> This targets any customer wanting to own and then **modify the original
+> content extensively preserving or altering the original intent, art direction,
+> or message** for composing his/her new content creation; **WITH** any monetary
+> intention such as but not limited to:
+>
+> * New content creation with digitally modified and processed original content
+>   integration for his/her own streaming platform; OR
+> * Personal content production and collection with digitally modified and
+>   processed original content integration for his/her own streaming platform;
+>   OR
+> * Personal web portfolio project with digitally modified and processed
+>   original content integration for his/her own streaming platform; OR
+> * Social media meme content creation with digitally modified and processed
+>   original content integration for his/her own streaming platform.
+
+You are **NOT ALLOWED** until you procure your dedicated license grant from us.
+
+
+
+### Broadcast or Resell Redistribution - Personal
+
+> [!NOTE]
+>
+> This targets any customer wanting to share, to broadcast, to re-distribute,
+> to sell, or to re-sell the original, **modified, OR derived** content
+> **WITHOUT** any monetary intention such as but not limited to:
+>
+> * Sharing with family members; OR
+> * Streaming the content via any streaming platform with private viewer access;
+>   OR
+> * Displaying the content in his/her gallery with privately invited guests; OR
+> * Displaying the content in private, free entry open spaces like living room;
+>   OR
+> * Owning a copy of the original content and serving it as downloadable content
+>   on a website in a private network (e.g. self-hosted home network); OR
+> * Sharing the original content across social media or messaging applications
+>   like email or instant messenger.
+
+You are **NOT ALLOWED** until you procure your dedicated license grant from us.
+
+
+
+### Broadcast or Resell Redistribution - Commercial
+
+> [!NOTE]
+>
+> This targets any customer wanting to share, to broadcast, to re-distribute,
+> to sell, or to re-sell the original, **modified, OR derived** content
+> **WITH** any monetary intention such as but not limited to:
+>
+> * Streaming the content via any streaming platform with public or private
+>   viewer access; OR
+> * Displaying the content in any company's public events with free or payable
+>   guest invites; OR
+> * Displaying the content in any company's internal/private events with free or
+>   payable guest invites; OR
+> * Owning a copy of the original content and serving it as free OR payable
+>   downloadable content on his/her website in any network (Internet, Intranet,
+>   or private networks); OR
+> * Sharing the original content across social media or messaging applications
+>   like email or instant messenger; OR
+> * Distributing the original content via multiple profit-earning streaming
+>   platforms.
+
+You are **NOT ALLOWED** until you procure your dedicated license grant from us.
