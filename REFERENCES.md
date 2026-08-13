@@ -22,3 +22,8 @@ Below are the references used in this project repository:
 >   numbering system.
 > * Once reference number is assigned, it **MUST NOT** be changed to avoid
 >   breaking the entire repository.
+
+1. NICK VIDAL; 2025; "maintaine.rs: Unveiling the Open Source heroes that power
+   our digital infrastructure"; 2025 Maintainers Month; 2025 Edition;
+   Maintaine.rs via Open Source Initiative; California, United States of
+   America; Viewed: 2025-12-25; Available at: https://maintaine.rs

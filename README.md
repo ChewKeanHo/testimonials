@@ -2,12 +2,31 @@
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-(Holloway) Chew, Kean Ho's received testimonials. They are his past efforts'
-reciprocal feedbacks throughout his working and entrepreneurial journies - all
-in one (1) place.
+In a world saturated with opinions, toxic or artificially created, what is the
+enduring value of a genuine testimonial? For decades, `(Holloway) Chew, Kean Ho`
+has been a quiet architect of change — whether as an engineer, software
+developer, business entrepreneur, web system developer, hobbyist,
+aqua/horticulturist, an ex-ZORALab service provider, and etc. His work has
+quietly shaped careers, transformed perspectives, and solved unseen problems.
 
-This project is open and is continuously improved (e.g. updated) from
-time-to-time accordingly.
+This Testimonial Tapestry is not a memoir, but a mirrored hall of impact. Its
+unique volume curates the unfiltered voices of clients, colleagues, and
+collaborators across a lifetime of service. Each page offers a window into a
+specific challenge met, a success forged, or a personal transformation realized.
+
+Procured by leaders seeking authentic case studies, by practitioners hungry for
+proof of concept, and by anyone who believes that the true measure of a
+professional life is found in the voices of those it touched, this book serves
+as both validation and compass. It is a compelling argument for integrity-led
+work, a masterclass in client relationships, and a profound collection of human
+stories that together answer the most critical question: "What did he did for
+his community?"
+
+Herein lies the documentary evidences; entries by entries; from the latest and
+greatest to the historic early entry.
+
+This book is continuously improved by version controls. Please do check back
+from time-to-time.
 
 
 
